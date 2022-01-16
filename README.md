@@ -35,7 +35,7 @@ networks between between 2008 and 2019. The weighted networks
 have edge weights corresponding to the number of users that posted at least 10 comments
 in both subreddits. The unweighted networks 
 are created by applying statistical network backboning, 
-specifically the [noise-corrected filter](https://www.michelecoscia.com/?page id=287), to the 
+specifically the [noise-corrected filter](https://www.michelecoscia.com/?pageid=287), to the 
 weighted networks.
 
 # Subreddit Metadata
