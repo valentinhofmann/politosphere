@@ -2,8 +2,12 @@
 
 This repository contains documentation and scripts for the [Reddit Politosphere](https://doi.org/10.5281/zenodo.5851729), a large-scale text and network resource of online political discourse
 based on the [Pushshift Reddit Dataset](https://doi.org/10.5281/zenodo.3608135). 
-It covers [605 political subreddits](data/subreddits.txt) over a period of 12 years (2008 to 2019).
 
+The Reddit Politosphere covers 605 [political subreddits](data/subreddits.txt) over a period of 12 years (2008 to 2019).
+For each year, it contains:
+
+- all comments posted in the political subreddits
+- networks with the political subreddits as nodes and edges computed by applying backboning to the counts of users shared between subreddits
 
 # Scripts
 
