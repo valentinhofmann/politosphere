@@ -1,15 +1,16 @@
 # The Reddit Politosphere
 
-This repository contains documentation and scripts for the Reddit Politosphere, a large-scale text and network resource of online political discourse
-based on the [Pushshift Reddit Dataset](https://doi.org/10.5281/zenodo.3608135).
-The Reddit Politosphere can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.5851729).
+This repository contains documentation and scripts for the [Reddit Politosphere](https://doi.org/10.5281/zenodo.5851729), a large-scale text and network resource of online political discourse
+based on the [Pushshift Reddit Dataset](https://doi.org/10.5281/zenodo.3608135). 
+It covers [605 political subreddits](data/subreddits.txt) over a period of 12 years (2008 to 2019).
+
 
 # Scripts
 
  We provide scripts for easy data access:
  
- - `load_comments.py`: load comments 
- - `load_networks.py`: load networks
+ - `load_comments.py`: load comments for specific years and subreddits
+ - `load_networks.py`: load networks for specific years
 
 
 # Comments
