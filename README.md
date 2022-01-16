@@ -59,5 +59,21 @@ political subreddits. Specifically, it has the following data fields:
 # User Metadata
 
 The subreddit metadata file `subreddits_metadata.json` lists selected properties of the 
-political subreddits.
+users (which otherwise are fully pseudonymized). Specifically, it has the following data fields:
+
+- `automoderator`: automoderator (for filtering)
+- `bot`: bot (for filtering)
+- `gender`: username containing male `m` or female `f` given name
+
+It further provides information about the presence of frequent classes of 
+lexical elements in the usernames:
+
+- `angry`: negative attitude (_angry_, _rogue_, _troll_, _wtf_)
+- `anti`: overt negation (anti, downvote, fuck, stop)
+- `astro`: astro theme (astro, cosm, rocket, space)
+- `dangerous`: dangerous animal (beast, gorilla, shark, tiger, wolf)
+- `doom`: doom theme (dead, death, doom, evil, zombie)
+- `military`: military title (c(a)pt, colonel, commander, major, sgt)
+- `nobility`: title of nobility (duke, emperor, king, lord, sir)
+- `trump`: reference to Donald Trump
 
