@@ -28,9 +28,9 @@ Pushshift Reddit Dataset. We add the following two data fields:
 - `language`: the language of the comment as detected by [CLD2](https://github.com/CLD2Owners/cld2)
 
 
-# Networks: `networks_YYYY.csv`
+# Networks
 
-The network filescontain the weighted and unweighted 
+The network files (`networks_YYYY.csv`) contain the weighted and unweighted 
 networks between 2008 and 2019. The weighted networks
 have edge weights corresponding to the number of users that posted at least 10 comments
 in both subreddits. The unweighted networks 
