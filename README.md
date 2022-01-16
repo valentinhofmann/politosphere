@@ -36,7 +36,11 @@ have edge weights corresponding to the number of users that posted at least 10 c
 in both subreddits. The unweighted networks 
 are created by applying statistical network backboning, 
 specifically the [noise-corrected filter](https://www.michelecoscia.com/?pageid=287), to the 
-weighted networks.
+weighted networks. The files have the following data fields:
+
+- `node_1`, `node_2`: nodes incident to the (undirected) edge
+- `weighted`: edge weight in weighted network (number of shared users)
+- `unweighted`: edge status in unweighted network
 
 # Subreddit Metadata
 
