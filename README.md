@@ -20,7 +20,7 @@ We also release metadata for subreddits and users.
 
 # Comments
 
-The comment files contain all comments posted in the 
+The comment files (`comments_YYYY-MM.bz2`) contain all comments posted in the 
 political subreddits between 2008 and 2019. The data fields are identical to the 
 Pushshift Reddit Dataset. We add the following two data fields:
 
@@ -30,7 +30,7 @@ Pushshift Reddit Dataset. We add the following two data fields:
 
 # Networks
 
-The network files contain the weighted and unweighted 
+The network files (`networks_YYYY.csv`) contain the weighted and unweighted 
 networks between 2008 and 2019. The weighted networks
 have edge weights corresponding to the number of users that posted at least 10 comments
 in both subreddits. The unweighted networks 
@@ -39,10 +39,21 @@ specifically the [noise-corrected filter](https://www.michelecoscia.com/?pageid=
 weighted networks. The files have the following data fields:
 
 - `node_1`, `node_2`: nodes incident to the undirected edge
-- `weighted`: edge weight in weighted network
-- `unweighted`: edge status in unweighted network (1: edge, 0: no edge)
+- `weighted`: edge weight in the weighted network
+- `unweighted`: whether or not the edge exists in the unweighted network
 
 # Subreddit Metadata
+
+The subreddit metadata file (`subreddits_metadata.json`) lists selected properties of the 
+political subreddits. Specifically, it has the following data fields:
+
+- `subreddit`: name of subreddit
+- `banned`: subreddit banned by 2022
+- `gun`: subreddit with focus on gun control
+- `party`: explicit affiliation with democratic (`dem`) or republican (`rep`) party`
+- `politician`: subreddit devoted to a politician
+- `region`: subreddit devoted to Canada (`ca`), Europe (`eu`), Middle East (`me`), UK (`uk`), US states (`us`) or other regions (`world`)
+
 
 # User Metadata
 
