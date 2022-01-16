@@ -39,8 +39,8 @@ specifically the [noise-corrected filter](https://www.michelecoscia.com/?pageid=
 weighted networks. The files have the following data fields:
 
 - `node_1`, `node_2`: nodes incident to the undirected edge
-- `weighted`: edge weight in weighted network (number of shared users with least 10 comments in both subreddits)
-- `unweighted`: edge status in unweighted network (1: edge; 0: no edge)
+- `weighted`: edge weight in weighted network
+- `unweighted`: edge status in unweighted network (1: edge, 0: no edge)
 
 # Subreddit Metadata
 
