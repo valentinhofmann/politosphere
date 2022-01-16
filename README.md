@@ -6,7 +6,7 @@ based on the [Pushshift Reddit Dataset](https://doi.org/10.5281/zenodo.3608135).
 The Reddit Politosphere covers 605 [political subreddits](data/subreddits.txt) between 2008 to 2019.
 For each year, it contains:
 
-- all comments posted in the political subreddits together with metadata such as exact creation time;
+- all comments posted in the political subreddits together with metadata;
 - networks with the political subreddits as nodes and edges computed on the basis of user overlap.
 
 We also release metadata for subreddits and users.
