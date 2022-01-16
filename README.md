@@ -52,7 +52,7 @@ political subreddits. Specifically, it has the following data fields:
 - `gun`: subreddit with focus on gun control
 - `party`: explicit affiliation with democratic `dem` or republican `rep` party`
 - `politician`: subreddit devoted to a politician
-- `region`: subreddit about Canada `ca`, Europe `eu`, Middle East `me`, UK `uk`, US states `us` or other regions `world`
+- `region`: Canada `ca`, Europe `eu`, Middle East `me`, UK `uk`, US states `us` or other regions `world`
 
 
 # User Metadata
