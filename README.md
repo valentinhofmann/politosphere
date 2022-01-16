@@ -34,7 +34,7 @@ Pushshift Reddit Dataset. The author names are converted to random five-characte
 The network files `networks_YYYY.csv` contain the weighted and unweighted 
 networks between 2008 and 2019. The weighted networks
 have edge weights corresponding to the number of users that posted at least 10 comments
-in both subreddits. The unweighted networks 
+in both subreddits, excluding bots and automoderators. The unweighted networks 
 are created by applying statistical network backboning, 
 specifically the [noise-corrected filter](https://www.michelecoscia.com/?pageid=287), to the 
 weighted networks. The files have the following data fields:
@@ -49,7 +49,7 @@ The subreddit metadata file `subreddits_metadata.json` lists selected properties
 political subreddits. Specifically, it has the following data fields:
 
 - `subreddit`: name of subreddit
-- `banned`: subreddit banned by 2022
+- `banned`: whether or not subreddit has been banned by 2022
 - `gun`: subreddit with focus on gun control
 - `party`: explicit affiliation with democratic `dem` or republican `rep` party`
 - `politician`: subreddit devoted to a politician
@@ -61,8 +61,8 @@ political subreddits. Specifically, it has the following data fields:
 The subreddit metadata file `subreddits_metadata.json` lists selected properties of the 
 users (which otherwise are fully pseudonymized). Specifically, it has the following data fields:
 
-- `automoderator`: automoderator (for filtering)
-- `bot`: bot (for filtering)
+- `automoderator`: whether or not user is automoderator (for filtering)
+- `bot`: whether or not user is bot (for filtering)
 - `gender`: username containing male `m` or female `f` given name
 
 It further provides information about the presence of frequent classes of 
