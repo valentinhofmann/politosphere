@@ -31,7 +31,7 @@ Pushshift Reddit Dataset. We add the following two data fields:
 # Networks
 
 The network files contain the weighted and unweighted 
-networks between between 2008 and 2019. The weighted networks
+networks between 2008 and 2019. The weighted networks
 have edge weights corresponding to the number of users that posted at least 10 comments
 in both subreddits. The unweighted networks 
 are created by applying statistical network backboning, 
