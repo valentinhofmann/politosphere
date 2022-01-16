@@ -5,10 +5,11 @@ based on the [Pushshift Reddit Dataset](https://doi.org/10.5281/zenodo.3608135).
 The Reddit Politosphere can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.5851729).
 
 # Scripts
+
  We provide scripts for easy data access:
  
  - `load_comments.py`: load comments 
- - `load_networks.py`: load comments 
+ - `load_networks.py`: load networks
 
 
 # Comments
@@ -27,7 +28,6 @@ are created by applying statistical network backboning,
 specifically the noise-corrected filter, to the 
 weighted networks.
 
-- 
 
 # Subreddit Metadata
 
