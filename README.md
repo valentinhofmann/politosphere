@@ -1,6 +1,7 @@
 # The Reddit Politosphere
 
-This repository contains documentation and scripts for the [Reddit Politosphere](https://doi.org/10.5281/zenodo.5851729), a large-scale text and network resource of online political discourse
+This repository contains documentation and scripts for the [Reddit Politosphere](https://doi.org/10.5281/zenodo.5851729), a pseudonymized, 
+large-scale text and network resource of online political discourse
 based on the [Pushshift Reddit Dataset](https://doi.org/10.5281/zenodo.3608135). 
 
 The Reddit Politosphere covers 605 [political subreddits](data/subreddits.txt) between 2008 to 2019.
@@ -22,7 +23,7 @@ We also release metadata for subreddits and users.
 
 The comment files `comments_YYYY-MM.bz2` contain all comments posted in the 
 political subreddits between 2008 and 2019. The data fields are identical to the 
-Pushshift Reddit Dataset. We add the following two data fields:
+Pushshift Reddit Dataset. The author names are converted to random five-character pseudonyms. We add the following two data fields:
 
 - `body_cleaned`: a tokenized, lower-cased, and cleaned version of the comment body 
 - `language`: the language of the comment as detected by [CLD2](https://github.com/CLD2Owners/cld2)
@@ -56,4 +57,7 @@ political subreddits. Specifically, it has the following data fields:
 
 
 # User Metadata
+
+The subreddit metadata file `subreddits_metadata.json` lists selected properties of the 
+political subreddits.
 
