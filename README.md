@@ -24,7 +24,7 @@ The comment files contain all comments posted in the
 political subreddits between 2008 and 2019. The data fields are identical to the 
 Pushshift Reddit Dataset. We add the following two data fields:
 
-- `body_cleaned`: a tokenized, lowercased, and cleaned version of the comment body 
+- `body_cleaned`: a tokenized, lower-cased, and cleaned version of the comment body 
 - `language`: the language of the comment as detected by [CLD2](https://github.com/CLD2Owners/cld2)
 
 
@@ -38,9 +38,9 @@ are created by applying statistical network backboning,
 specifically the [noise-corrected filter](https://www.michelecoscia.com/?pageid=287), to the 
 weighted networks. The files have the following data fields:
 
-- `node_1`, `node_2`: nodes incident to the (undirected) edge
-- `weighted`: edge weight in weighted network (number of shared users)
-- `unweighted`: edge status in unweighted network
+- `node_1`, `node_2`: nodes incident to the undirected edge
+- `weighted`: edge weight in weighted network (number of shared users with least 10 comments in both subreddits)
+- `unweighted`: edge status in unweighted network (1: edge; 0: no edge)
 
 # Subreddit Metadata
 
