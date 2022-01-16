@@ -38,9 +38,10 @@ in both subreddits, excluding bots and automoderators. The unweighted networks
 are created by applying statistical network backboning, 
 specifically the [noise-corrected filter](https://www.michelecoscia.com/?pageid=287), to the 
 weighted networks. Intuitively, a large weight between
-two _large_ subreddits is less indicative of latent associations 
+two _large_ subreddits is less indicative of latent associations between the subreddits
 than a large weight between two _small_ subreddits.
-The noise-corrected filter takes such effects into account
+The noise-corrected filter takes such effects into account when 
+converting the weighted into an unweighted network.
 The files have the following data fields:
 
 - `node_1`, `node_2`: nodes incident to the undirected edge
