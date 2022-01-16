@@ -69,11 +69,11 @@ It further provides information about the presence of frequent classes of
 lexical elements in the usernames:
 
 - `angry`: negative attitude (_angry_, _rogue_, _troll_, _wtf_)
-- `anti`: overt negation (anti, downvote, fuck, stop)
-- `astro`: astro theme (astro, cosm, rocket, space)
-- `dangerous`: dangerous animal (beast, gorilla, shark, tiger, wolf)
-- `doom`: doom theme (dead, death, doom, evil, zombie)
-- `military`: military title (c(a)pt, colonel, commander, major, sgt)
-- `nobility`: title of nobility (duke, emperor, king, lord, sir)
-- `trump`: reference to Donald Trump
+- `anti`: overt negation (_anti_, _downvote_, _fuck_, _stop_)
+- `astro`: astro theme (_astro_, _cosm_, _rocket_, _space_)
+- `dangerous`: dangerous animal (_beast_, _gorilla_, _shark_, _tiger_, _wolf_)
+- `doom`: doom theme (_dead_, _death_, _doom_, _evil_, _zombie_)
+- `military`: military title (_c(a)pt_, _colonel_, _commander_, _major_, _sgt_)
+- `nobility`: title of nobility (_duke_, _emperor_, _king_, _lord_, _sir_)
+- `trump`: reference to Donald Trump (_trump_)
 
