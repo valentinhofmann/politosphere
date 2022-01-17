@@ -66,6 +66,7 @@ political subreddits. Specifically, it has the following data fields:
 The subreddit metadata file `users_metadata.json` lists selected properties of the 
 users (who otherwise are fully pseudonymized). Specifically, it has the following data fields:
 
+- `author`: pseudonymized username
 - `automoderator`: whether or not user is automoderator (for filtering)
 - `bot`: whether or not user is bot (for filtering)
 - `gender`: username containing male `m` or female `f` given name
