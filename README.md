@@ -63,7 +63,7 @@ political subreddits. Specifically, it has the following data fields:
 
 # User Metadata
 
-The subreddit metadata file `subreddits_metadata.json` lists selected properties of the 
+The subreddit metadata file `users_metadata.json` lists selected properties of the 
 users (which otherwise are fully pseudonymized). Specifically, it has the following data fields:
 
 - `automoderator`: whether or not user is automoderator (for filtering)
