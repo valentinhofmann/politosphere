@@ -23,9 +23,10 @@ def main():
     for c in pd.read_json(args.comments_file, compression='bz2', lines=True, dtype=False, chunksize=10000):
         if args.subreddits_file:
             c = c[c.subreddit.isin(subreddits)]
-            # Perform further filtering here
         comments.append(c)
     comments = pd.concat(comments, sort=True)
+
+    # Do something with comments here
 
     # Store extracted comments
     if args.target_dir:
