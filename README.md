@@ -14,9 +14,9 @@ We also release metadata for subreddits and users.
 
 # Scripts
 
- We provide two scripts for easy data access:
+ We provide scripts for easy data access:
  
- - `load_comments.py`: load comments for specific years and subreddits
+ - `load_comments.py`, `load_comments.sh`: load comments for specific years and subreddits
  - `load_networks.py`: load networks for specific years
 
 # Comments
