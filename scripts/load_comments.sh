@@ -5,6 +5,6 @@ YEAR=$2
 
 for FILE in $FILEPATH/comments_$YEAR*
 do	
-	python -u load_comments.py --file $FILE &
+	python -u load_comments.py --comments_file $FILE &
 done
 wait
