@@ -83,3 +83,16 @@ lexical elements in the usernames:
 - `nobility`: title of nobility (_duke_, _emperor_, _king_, _lord_, _sir_)
 - `trump`: reference to Donald Trump (_trump_)
 
+
+# Citation
+
+Please cite the following paper when using data from the Reddit Politosphere:
+
+```
+@inproceedings{hofmann2022politosphere,
+    title = {The {R}eddit {P}olitosphere: A Large-Scale Text and Network Resource of Online Political Discourse},
+    author = {Hofmann, Valentin and Sch{\"u}tze, Hinrich and Pierrehumbert, Janet},
+    booktitle = {Proceedings of the International AAAI Conference on Web and Social Media 16},
+    year = {2022}
+}
+```
